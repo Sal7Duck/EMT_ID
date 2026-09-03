@@ -1,0 +1,79 @@
+url: https://zaoqu-liu.github.io/SCENT/
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  bslib:
+    primary: "#2c3e50"
+    
+authors:
+  Zaoqu Liu:
+    href: https://github.com/Zaoqu-Liu
+  Andrew E Teschendorff:
+    href: https://www.picb.ac.cn/
+
+home:
+  title: SCENT - Single Cell Entropy
+  description: >
+    Estimate differentiation potency of single cells using signaling entropy
+    on protein interaction networks.
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [search, github]
+  components:
+    articles:
+      text: Tutorials
+      menu:
+        - text: Getting Started
+        - text: Quick Start Guide
+          href: articles/quick-start.html
+        - text: "---"
+        - text: Understanding the Method
+        - text: Algorithm Background
+          href: articles/algorithm.html
+        - text: "---"
+        - text: Advanced Topics
+        - text: Visualization Guide
+          href: articles/visualization.html
+        - text: Performance Benchmark
+          href: articles/benchmark.html
+
+reference:
+  - title: Core Functions
+    desc: Main functions for computing signaling entropy
+    contents:
+      - CompSRana
+      - CompCCAT
+      - DoIntegPPI
+  - title: Data
+    desc: Built-in datasets
+    contents:
+      - net13Jun12.m
+
+articles:
+  - title: Getting Started
+    navbar: ~
+    contents:
+      - quick-start
+  - title: Understanding the Method
+    navbar: ~
+    contents:
+      - algorithm
+  - title: Advanced Topics
+    navbar: ~
+    contents:
+      - visualization
+      - benchmark
+
+figures:
+  dev: ragg::agg_png
+  dpi: 150
+  fig.width: 7
+  fig.height: 5
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with

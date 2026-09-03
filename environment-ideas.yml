@@ -1,0 +1,17 @@
+# Environment for the intrinsic-dimension runs only (src/run_scripts/).
+# Kept separate from environment.yml because IDEAS pins dadapy and its own stack.
+name: ideas
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - h5py
+  - anndata
+  - scanpy
+  - tqdm
+  - pip
+  - pip:
+      - dadapy

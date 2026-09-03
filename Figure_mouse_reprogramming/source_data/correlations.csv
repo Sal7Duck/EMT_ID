@@ -1,0 +1,7 @@
+panel,x,y,subset,n,pearson_r,spearman_rho,p
+panel02_ks_epi_vs_mes_early,KS_epithelial,KS_mesenchymal,Days 0–7.5,98197,-0.15261661864038026,-0.11285386964965578,0.0
+panel03_ks_vs_gs76_early,KS_score,GS76_score,Days 0–7.5,98197,-0.31858577903441926,-0.25442979064462656,0.0
+panel04_entropy_vs_id_all,ID_score,signalling_entropy,All cells,181124,0.27732425448292386,0.2817542727680876,0.0
+panel10_id_vs_pluripotency_late,ID_score,pluripotency,Days ≥10.5,60477,0.6090004697277445,0.44672214412766686,0.0
+panel11_ks_epi_vs_mes_late,KS_epithelial,KS_mesenchymal,Days ≥10.5,60477,-0.2107075266869451,-0.21565411665298576,0.0
+panel12_ks_vs_gs76_late,KS_score,GS76_score,Days ≥10.5,60477,-0.69584883859261,-0.7774231939592249,0.0

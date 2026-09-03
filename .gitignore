@@ -1,0 +1,43 @@
+data/*.h5ad
+data/*.rds
+data/*.pkl
+
+# Local Python and R environments
+.venv/
+venv/
+env/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editor and notebook working files
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Reproducible, publication-ready renderings. Keep notebooks and source data;
+# regenerate these figures locally when needed.
+**/figures/
+
+# Temporary/intermediate output from analysis runs
+*.tmp
+*.temp
+*.bak
+*.log
+source_data/_stale/
+notebooks/_to_delete/
+verification/
+scores/*/KS_ssGSEA.csv.chunks/
+scores/*/*.log
+
+scores/*/IDEAS_clusterID_100runs.csv.parts/
+wot/_removed/
+_removed_buildscripts/

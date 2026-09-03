@@ -1,0 +1,7 @@
+score,test,stat,p,rank_biserial,median_iMac,median_iPSC
+Local intrinsic dimension (2NN),Kruskal-Wallis within iMac,433.6191155176564,6.931152294250985e-95,,,
+Local intrinsic dimension (2NN),Kruskal-Wallis within iPSC,634.1675298219513,3.9445355462841415e-137,,,
+Local intrinsic dimension (2NN),"Mann-Whitney, iMac 114h vs iPSC day 8",1907.0,9.963625808525302e-121,-0.9741346571180556,0.17985,0.480742
+CCAT signalling entropy,Kruskal-Wallis within iMac,81.12863985352779,2.4162379081210316e-18,,,
+CCAT signalling entropy,Kruskal-Wallis within iPSC,702.2003740608218,6.997033094472035e-152,,,
+CCAT signalling entropy,"Mann-Whitney, iMac 114h vs iPSC day 8",12981.0,6.401739876753117e-87,-0.8239339192708334,0.41653450000000003,0.7140230000000001

@@ -1,0 +1,2 @@
+# Notebooks: show a readable diff instead of a wall of JSON
+*.ipynb -text

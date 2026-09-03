@@ -1,0 +1,22 @@
+name: emt-id
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - h5py
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - anndata
+  - scanpy
+  - jupyterlab
+  - pip
+  - pip:
+      - scikit-posthocs
+      - gseapy
+# CCAT additionally needs R with the SCENT package:
+#   conda create -n scent-r -c conda-forge -c bioconda r-base r-devtools bioconductor-annotationdbi
+#   R -e 'devtools::install_github("aet21/SCENT")'
